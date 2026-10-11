@@ -1,0 +1,11 @@
+.git
+.github
+.vscode
+**/__pycache__
+.env
+track/images
+Dockerfile
+Procfile
+runtime.txt
+Pipfile
+Makefile

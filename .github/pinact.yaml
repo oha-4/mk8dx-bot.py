@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/suzuki-shunsuke/pinact/refs/heads/main/json-schema/pinact.json
+# pinact - https://github.com/suzuki-shunsuke/pinact
+version: 3
+# Reject action versions published less than 7 days ago (supply-chain
+# protection). `always` also audits already-pinned versions on every run.
+min_age:
+  value: 7
+  always: true
